@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.1em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  background-color: #fff;
+  color: #fff;
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+#nav-bar ul {
+  display: inline-flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+#nav-bar ul li a.active {
+  color: coral;
+}
+
+#nav-bar li {
+  padding: 30px;
+}
+#nav-bar a {
+  text-decoration: none;
+  font-size: 1.8em;
+  color: #191019;
+}
+#nav-bar a:hover {
+  color: coral;
+}
+
+.content {
+  display: flex;
+  box-shadow: 0 0 5px #333;
+}
+
+.about {
+  background-color: #191919;
+  width: 100%;
+  padding: 5px;
+  height: auto;
+}
+.main {
+  width: auto;
+  padding-left: 50px;
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+img {
+  border-radius: 10%;
+}
+.about-text {
+  width: 500px;
+}
+
+.about-text h1 {
+  color: #fff;
+  font-size: 60px;
+  text-transform: capitalize;
+  padding-left: 70px;
+  color: #9e425f;
+  letter-spacing: 3px;
+}
+.about-text h1 span {
+  color: #f9004d;
+}
+
+.about-text h3 {
+  color: #fff;
+  font-size: 25px;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+}
+
+.about-text h3 span {
+  color: #f9004d;
+}
+
+.myself p {
+  color: #fcfcfc;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+  text-align: justify;
+}
+
+.myself button {
+  background-color: #f9004d;
+  color: #fcfcfc;
+  text-decoration: none;
+  border: 2px transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+.myself button a {
+  text-decoration: none;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 18px;
+}
+.myself button:hover {
+  background: transparent;
+  border: 2px solid #f9004d;
+  cursor: pointer;
+}
+.skill {
+  /* margin-top: 30px; */
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.skill-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+.skill-container h1 {
+  padding: 10;
+  font-size: 40px;
+  letter-spacing: 4px;
+}
+
+.skill-item-container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  width: 100%;
+  grid-gap: 40px;
+}
+
+.skill-item p {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.outer-div {
+  width: 100%;
+  height: 20px;
+  border-radius: 6px;
+  background-color: #c4c4c4;
+}
+
+.html-div {
+  width: 90%;
+  height: 100%;
+  border-radius: 6px;
+  background-color: #3e64ff;
+}
+.css-div {
+  width: 70%;
+  height: 100%;
+  border-radius: 6px;
+  background-color: #3e64ff;
+}
+.python-div {
+  width: 50%;
+  height: 100%;
+  border-radius: 6px;
+  background-color: #3e64ff;
+}
+.pd-div {
+  width: 40%;
+  height: 100%;
+  border-radius: 6px;
+  background-color: #3e64ff;
+}
+
+.hp-container {
+  padding: 80;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 1000;
+  margin: auto;
+}
+.hp-container h1 {
+  padding: 20px 0px;
+  font-size: 40px;
+  letter-spacing: 4px;
+}
+
+.hp-item-container {
+  display: grid;
+  padding-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(2, auto);
+  width: 70%;
+  grid-gap: 80px;
+}
+.hp {
+  border: 3px solid #ececec;
+  padding: 40px;
+
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+.hp ul h3 {
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 3px;
+}
+.hp ul li {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 3px;
+}
+.footer {
+  margin-top: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
